@@ -836,6 +836,7 @@ def main():
         ### 📞 Emergency Contacts
         
         **Global Emergency Numbers:**
+        - **Ethiopia/Addis Ababa**: 907
         - **USA/Canada**: 911
         - **UK**: 999 or 112
         - **EU**: 112
@@ -1068,7 +1069,7 @@ def main():
     <p>Never disregard professional medical advice or delay in seeking it because of something you have read or interpreted from this tool. 
     If you think you may have a medical emergency, call your doctor, go to the emergency department, or call your local emergency number immediately.</p>
     
-    <p>© 2024 Medical AI Assistant. For demonstration and educational use only.</p>
+    <p>© 2025 Medical AI Assistant. For demonstration and educational use only.</p>
     </div>
     """, unsafe_allow_html=True)
 
