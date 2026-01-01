@@ -1075,8 +1075,6 @@ def main():
     It is not a substitute for professional medical advice, diagnosis, or treatment. 
     Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
 
-    <p>Never disregard professional medical advice or delay in seeking it because of something you have read or interpreted from this tool. 
-    If you think you may have a medical emergency, call your doctor, go to the emergency department, or call your local emergency number immediately.</p>
 
     <p>© 2025 Medical AI Assistant. For demonstration and educational use only.</p>
     </div>
