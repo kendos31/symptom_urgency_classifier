@@ -17,7 +17,7 @@ warnings.filterwarnings('ignore')
 # Set page configuration
 st.set_page_config(
     page_title="Symptom Urgency Classifier",
-    page_icon="🏥",
+    page_icon="kendos.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -801,12 +801,15 @@ def main():
 
     # Create main layout with sidebar
     with st.sidebar:
-        st.markdown("## 🔧 Navigation")
-        st.markdown("---")
+
+        st.image("kendos.png", width=80)
+        st.title("📊 Symptom Urgency Classifier")
+        #st.markdown("## 🔧 Navigation")
+        #st.markdown("---")
 
         # Quick examples
-        st.markdown("### 🚀 Quick Examples")
-        display_symptom_examples()
+        #st.markdown("### 🚀 Quick Examples")
+        #display_symptom_examples()
 
         st.markdown("---")
 
@@ -1019,29 +1022,33 @@ def main():
 
         else:
             # Welcome/instructions
+            about_help = "📝 How to Use This Tool"
+            ttt1 = f"### {about_help}"
+            with st.expander( ttt1 , expanded = False):
+                    st.markdown("""
+                    **1. Describe Symptoms**
+                    - Enter symptoms in the text area
+                    - Be specific and detailed
+                    - Include duration and severity
+
+                    **2. Add Details (Optional)**
+                    - Duration of symptoms
+                    - Severity level
+                    - Age group
+                    - Existing conditions
+
+                    **3. Get AI Analysis**
+                    - Click 'Analyze Symptoms with AI'
+                    - Review urgency assessment
+                    - See confidence scores
+
+                    **4. Follow Recommendations**
+                    - Emergency: Call for help immediately
+                    - Moderate: Schedule appointment
+                    - Routine: Self-care and monitoring
+                    """)
+
             st.markdown("""
-            ## 📝 How to Use This Tool
-
-            **1. Describe Symptoms**
-            - Enter symptoms in the text area
-            - Be specific and detailed
-            - Include duration and severity
-
-            **2. Add Details (Optional)**
-            - Duration of symptoms
-            - Severity level
-            - Age group
-            - Existing conditions
-
-            **3. Get AI Analysis**
-            - Click 'Analyze Symptoms with AI'
-            - Review urgency assessment
-            - See confidence scores
-
-            **4. Follow Recommendations**
-            - Emergency: Call for help immediately
-            - Moderate: Schedule appointment
-            - Routine: Self-care and monitoring
 
             ### 💡 Tips for Best Results
 
